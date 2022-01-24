@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "80:80"
+
+  web2:
+    build: ./web2
+    ports:
+      - "83:83"
+
+  cache:
+    build: ./cache
+    ports:
+      - "8080:8080"
+
+  loadbalancer:
+    build: ./loadbalancer
+    ports:
+      - "8000:8000"
