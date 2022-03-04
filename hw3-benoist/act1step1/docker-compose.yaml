@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  act1step1:
+    build: ./
+    tty: true
+    volumes:
+      - ./output:/home/output
+
+volumes:
+  output:
