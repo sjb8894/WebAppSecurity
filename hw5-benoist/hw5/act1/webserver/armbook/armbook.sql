@@ -209,30 +209,30 @@ CREATE TABLE IF NOT EXISTS `posts` (
 --
 
 INSERT INTO `posts` (`post_id`, `user_id_from`, `user_id_to`, `text`) VALUES
-(1, 1, 2, 'test'),
-(2, 2, 1, 'test'),
-(3, 1, 2, 'test'),
-(4, 2, 1, 'test'),
-(5, 1, 5, 'test'),
-(6, 1, 7, 'test'),
-(7, 1, 2, 'test'),
-(8, 9, 7, 'test'),
+(1, 1, 2, 'Hey Neil'),
+(2, 2, 1, 'Hey Chaim'),
+(3, 1, 2, 'You suck'),
+(4, 2, 1, 'No, you suck'),
+(5, 1, 5, 'Jacob is stupid'),
+(6, 1, 7, 'hey baby'),
+(7, 1, 2, 'your a bitch'),
+(8, 9, 7, 'Hello'),
 (9, 1, 2, '<?sc<x>ript>'),
-(10, 1, 2, 'test'),
-(11, 1, 2, 'test'),
-(12, 10, 1, 'test'),
-(13, 1, 2, 'test'),
-(15, 12, 1, 'test'),
-(17, 1, 13, 'test'),
-(19, 13, 1, 'test'),
+(10, 1, 2, 'hey'),
+(11, 1, 2, ';;'),
+(12, 10, 1, 'YOU R WEIRD'),
+(13, 1, 2, 'hey'),
+(15, 12, 1, 'Post'),
+(17, 1, 13, 'hey jamie you suck'),
+(19, 13, 1, 'i love you'),
 (20, 12, 12, 'test'),
-(21, 12, 12, 'test'),
-(22, 12, 12, 'test'),
-(23, 12, 9, 'test'),
-(24, 12, 12, 'test'),
+(21, 12, 12, 'hello'),
+(22, 12, 12, 'another test'),
+(23, 12, 9, 'hi test'),
+(24, 12, 12, 'nothing right now'),
 (25, 12, 12, 'test'),
-(26, 12, 12, 'test'),
-(27, 12, 12, 'test');
+(26, 12, 12, 'new post'),
+(27, 12, 12, 'testing');
 
 -- --------------------------------------------------------
 
@@ -323,7 +323,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`user_id`, `email`, `password`, `firstname`, `lastname`, `sex`, `birthday_month`, `birthday_day`, `birthday_year`) VALUES
 (1, 'ces1509@rit.edu', 'password', 'Jon', 'Doe', 1, 10, 2, 1988),
-(2, 'neil@neil.com', 'password', 'neil', 'armstrong', 1, 10, 2, 1988),
+(2, 'neil@neil.com', 'password', 'neil', 'zimmerman', 1, 10, 2, 1988),
 (6, 'csanders@sparsa.org', 'password', 'Grant', 'Batchlor', 2, -1, -1, -1),
 (4, 'chaim.sanders@gmail.com', 'password', 'Jon', 'Mccall', 2, -1, -1, -1),
 (5, 'jruppal@gmail.com', 'password', 'Jacob', 'Ruppal', 2, -1, -1, -1),

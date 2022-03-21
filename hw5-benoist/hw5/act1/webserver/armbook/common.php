@@ -1,10 +1,10 @@
 <?php
 
-$dbhost = 'act1-db-1';
+$dbhost = 'db_1-';
 $dbuser = 'root';
 $dbpass = '';
 $dbname = 'armbook';
-$mysqli = new mysqli('act1-db-1', $dbuser, $dbpass, $dbname);
+$mysqli = new mysqli('db_1', $dbuser, $dbpass, $dbname);
 if ($mysqli->connect_errno) {
     echo "Error: Failed to make a MySQL connection, here is why: \n";
     echo "Errno: " . $mysqli->connect_errno . "\n";
